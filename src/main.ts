@@ -1,9 +1,9 @@
 import dotenv from "dotenv";
 dotenv.config();
 import setup from "./setup";
-import convertImgs from "./convertImgs";
+import convertAndSaveImgs from "./convertAndSaveImgs";
 
 (async () => {
   await setup();
-  await convertImgs();
+  await convertAndSaveImgs();
 })();
