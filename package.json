@@ -1,0 +1,25 @@
+{
+  "name": "imgconverer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./dist/main.js",
+    "dev": "ts-node-dev ./src/main.ts",
+    "build": "tsc"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.3.2",
+    "heic-convert": "^2.1.0",
+    "rimraf": "^5.0.5",
+    "sharp": "^0.33.2",
+    "typescript": "^5.3.3"
+  },
+  "devDependencies": {
+    "@types/heic-convert": "^1.2.3",
+    "ts-node-dev": "^2.0.0"
+  }
+}

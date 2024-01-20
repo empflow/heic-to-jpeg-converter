@@ -1,0 +1,5 @@
+.env
+input
+output
+node_modules
+.DS_Store
